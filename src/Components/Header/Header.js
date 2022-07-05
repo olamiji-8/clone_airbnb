@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div>
-<h1>Header</h1>
+      <img src='./assest/images/Airbnb_logo.png' alt='' className='Header-icon'/>
     </div>
   )
 }
