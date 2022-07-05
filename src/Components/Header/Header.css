@@ -1,7 +1,14 @@
+.Header{
+    display: flex;
+}
 .Header-icon{
     
     height: 30px; 
     object-fit: contain;
     margin-left: 80px;
     
+}
+.Header-search{
+    display: flex;
+    align-items: center;
 }
