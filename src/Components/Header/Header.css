@@ -2,6 +2,11 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
 }
 .Header-icon{
     
@@ -13,9 +18,24 @@
 .Header-search{
     display: flex;
     align-items: center;
+    max-width: fit-content;
     flex: 1;
+    padding: 10px;
+    height: 30px;
+    border-radius: 999px;
+    border: 1px solid lightgray;
+  
+
+}
+.Header-search > input{
+    outline: none;
+    border:none;
+    width: 300px;
 }
 .Header-right{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    width: 15%;
 }
