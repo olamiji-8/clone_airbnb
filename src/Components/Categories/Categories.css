@@ -5,7 +5,11 @@
     margin-top: 50px;
     display:flex;
     justify-content: space-between;
-    top: 1000;
+   line-height: 100;
+    
   
     
+}
+.Categories > img{
+    background-image: cross-fade(0);
 }
