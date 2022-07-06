@@ -1,0 +1,11 @@
+.Categories{
+    height: 30px; 
+    object-fit: contain;
+    margin-left: 80px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+    top: 1000;
+  
+    
+}
