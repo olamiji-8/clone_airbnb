@@ -1,7 +1,7 @@
 import React from 'react'
 import './Categories.css'
 
-const Banner = () => {
+const Categories = () => {
   return (
     <div className='Categories'>
       <img src='./assest/images/1.jpg' alt='' className=''/>
@@ -20,4 +20,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default Categories

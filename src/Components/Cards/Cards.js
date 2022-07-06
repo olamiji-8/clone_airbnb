@@ -1,26 +1,22 @@
-// import React from 'react'
-// import './Cards.css'
+import React from 'react'
+import './Cards.css'
 
-// // const Cards = () => {{src, title,description,price
-// }}
-// {
-//   return (
-//     <div className='Cards'>
-//         <div className='Cards-section'>
-//             <Cards/>
-//             <Cards/>
-//             <Cards/>
+ function Cards   ({src,title,description,price})
+ {
 
-//         </div>
-//         <div className='Cards-section'>
-//             <Cards/>
-//             <Cards/>
-//             <Cards/>
+  return (
+    <div className='Cards'>
+        <img src={src} alt=''/>
+        <div>
+            <h2>{title}</h2>
+            <h4>{description}</h4>
+            <h3>{price}</h3>
+        </div>
 
-//         </div>
+      
 
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
-// export default Cards
+export default Cards
