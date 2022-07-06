@@ -2,7 +2,7 @@ import React from 'react'
 import Categories from '../Components/Categories/Categories'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
-import Cards from '../Components/Cards/Cards'
+// import Cards from '../Components/Cards/Cards'
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <Header/>
         {/* <hr/> */}
         <Categories/>
-        <Cards/>
+        {/* <Cards/> */}
         <Footer/>
     </div>
   )
