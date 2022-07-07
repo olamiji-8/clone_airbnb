@@ -1,7 +1,13 @@
 .Categories{
+    position:static;
+    top: 10;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
     border-top: 1px solid lightgray;
     display: flex;
     margin-top: 30px;
+    
   
     
 }
@@ -11,5 +17,6 @@
     margin-left: 80px;
     margin-top: 15px;
     justify-content: space-between;
+   
    
 }
