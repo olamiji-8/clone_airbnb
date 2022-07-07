@@ -1,6 +1,7 @@
 import React from 'react'
 import './Cards.css'
 
+
  function Cards   ({src,title,description,price})
  {
 
@@ -12,8 +13,7 @@ import './Cards.css'
             <h4>{description}</h4>
             <h3>{price}</h3>
         </div>
-
-      
+   
 
     </div>
   )
