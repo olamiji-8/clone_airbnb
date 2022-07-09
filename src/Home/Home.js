@@ -1,8 +1,9 @@
 import React from 'react'
 
-import Categories from '../Components/Categories/Categories'
+
 import Footer from '../Components/Footer/Footer'
-import Header from '../Components/Header/Header'
+
+import Testing from '../Components/Testing/Testing'
 
 
 const Home = () => {
@@ -11,9 +12,9 @@ const Home = () => {
 
   return (
     <div>
-        <Header/>
-        <Categories/>
         
+        
+        <Testing/>
         <Footer/>
     </div>
   )

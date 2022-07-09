@@ -6,12 +6,14 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
-const Header = () => {
+const Header = ({setkey}) => {
   return (
     <div className='Header'>
       <img src='./assest/images/Airbnb_logo.png' alt='' className='Header-icon'/>
       <div className='Header-search'>
-        <input type="Search"/>
+        <input type="Search"
+        onChange={(e)=>setkey(e.target.value)}
+        />
         <SearchIcon/>
       </div>
       <div className='Header-right'>

@@ -8,14 +8,14 @@ function Categories() {
 
  const filterResult =(catItem)=>{
   const result = data.filter((curDate) =>{
-    return curDate.Categories === catItem
+    return curDate.data === catItem
   }
   )
   setData(result);
  }
   return (
     <div className='Categories'>
-      <button onClick={() => filterResult('island')}>
+      <button onClick={() => filterResult("island")}>
       <img src='./assest/images/1.jpg' alt='' className=''/>
       <p>island</p>
       </button>
