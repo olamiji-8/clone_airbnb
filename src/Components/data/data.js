@@ -774,7 +774,7 @@ price : "215 CHF"
     category: "pools",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/1_pools.webp?alt=media&token=ba5a0463-7665-48e5-bce1-1bae2ccdd3d7",
     title : "Badachro, UK",
-    decription = "5,754 kilometers away Nov 12 – 17",
+    description : "5,754 kilometers away Nov 12 – 17",
     price : "199 CHF"
 
 },
@@ -935,4 +935,4 @@ price : "215 CHF"
 },  
 
 ]
-export default item
+export default item;

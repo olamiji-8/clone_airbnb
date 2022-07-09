@@ -1,9 +1,9 @@
 import React from 'react'
+
 import Categories from '../Components/Categories/Categories'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
-import Cards from '../Components/Cards/Cards'
-import List from '../Components/Search/List'
+
 
 const Home = () => {
 
@@ -13,8 +13,7 @@ const Home = () => {
     <div>
         <Header/>
         <Categories/>
-        <Cards/>
-        <List/>
+        
         <Footer/>
     </div>
   )

@@ -1,4 +1,6 @@
 .Cards{
+    display: flex;
+    padding: 30px;
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
@@ -9,7 +11,7 @@
 .Cards > img{
     object-fit: fill;
     min-width: 300px;
-    /* min-height: 200px; */
+    min-height: 200px;
     width: 100%;
 }
 .Cards:hover{
