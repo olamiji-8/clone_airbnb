@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 
 
 
+
 const Testing = () => {
 
   // the value that holds the category
@@ -339,7 +340,7 @@ price : "147 CHF"
 
 
   const allcategory = [
-    { name: 'All', key: '', image: "./assest/images/11.jpg" },
+    { name: 'All',time:'', key: '', image: "./assest/images/11.jpg" },
     { name: 'island', key: 'island', image: "./assest/images/1.jpg" },
     { name: 'parks', key: 'parks', image: "./assest/images/2.jpg" },
     { name: 'pools', key: 'pools', image: "./assest/images/3.jpg" },
