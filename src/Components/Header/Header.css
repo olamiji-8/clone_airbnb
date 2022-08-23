@@ -8,6 +8,7 @@
     width: 100%;
     background-color: white;
     margin-top: 25px;
+    
 }
 .Header-icon{
     
@@ -25,6 +26,7 @@
     height: 30px;
     border-radius: 999px;
     border: 1px solid lightgray;
+    
   
 
 }
@@ -39,4 +41,17 @@
     justify-content: space-between;
     margin-right: 80px;
     width: 15%;
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    /* width: 75%; */
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    /* width: 50%; */
 }

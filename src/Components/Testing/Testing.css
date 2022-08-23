@@ -1,25 +1,29 @@
-.testing {
-    background-color: rgb(255, 255, 255);
-    color: black !important;
-    padding: 5rem 2rem ;
-}
 
-.testing .row {
-width: 90vw;
-display: grid;
-gap: 2rem;
-max-width: 1170px;
-}
-.testing .btn{
-    margin: 1rem;
-}
 
-@media screen and (min-width:768px ){
-  .testing  .row{
-        grid-template-columns: repeat(4, 1fr);
+@media screen and (min-width:768px) {
+    .testing .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .testing {
+        background-color: rgb(255, 255, 255);
+        color: black !important;
+        padding: 5rem 3rem;
+        
+    
+    }
+    
+    .testing .row {
+        width: auto;
+        display: grid;
+        gap: 2rem;
+        justify-content: center;
+        max-width: 1170px;
+        padding-left: 35px;
+        
+        
+    }
+    .testing .btn {
+        margin: 1rem;
     }
 }
 
-/* .col {
-
-} */
