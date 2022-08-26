@@ -11,29 +11,30 @@
     
 }
 .Header-icon{
-    
+    display: flex;
     height: 30px; 
     object-fit: contain;
-    margin-left: 80px;
+   align-items: center;
+   justify-content: center;
     
 }
 .Header-search{
     display: flex;
     align-items: center;
-    max-width: fit-content;
-    flex: 1;
     padding: 10px;
     height: 30px;
-    border-radius: 999px;
+    border-radius: 50px;
     border: 1px solid lightgray;
+    justify-content: center;
     
   
 
 }
 .Header-search > input{
+    display: flex;
     outline: none;
     border:none;
-    width: 300px;
+    
 }
 .Header-right{
     display: grid;
