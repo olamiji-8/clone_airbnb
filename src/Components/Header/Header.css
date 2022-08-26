@@ -36,11 +36,11 @@
     width: 300px;
 }
 .Header-right{
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: space-between;
-    margin-right: 80px;
-    width: 15%;
+    gap: 1rem;
+    grid-template-columns:repeat(4,1fr);
+
 }
 
 
