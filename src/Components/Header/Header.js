@@ -7,15 +7,17 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import Airbnb from '../assets/Airbnb_logo.png'
 
 
 
 const Header = ({setkey}) => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" expand="lg">
       <Container>
     <div className='Header'>
-      <img src='./assest/images/Airbnb_logo.png' alt='' className='Header-icon'/>
+    <Navbar.Brand href="#home"><img src={Airbnb} alt='' className='Header-icon'/></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <div className='Header-search'>
         <input type="Search"
         onChange={(e)=>setkey(e.target.value)}
@@ -29,7 +31,9 @@ const Header = ({setkey}) => {
         <AccountCircleIcon/>
 
       </div>
+     
     </div>
+  
     </Container>
     </Navbar>
   )
